@@ -1,0 +1,50 @@
+{
+  "label": "solus-website-ecommerce",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reach/router": "^1.2.1",
+    "@rescripts/cli": "^0.0.13",
+    "astroturf": "^0.9.21",
+    "axios": "^0.19.0",
+    "downshift": "^3.4.1",
+    "formik": "^2.0.4",
+    "framer-motion": "^1.6.17",
+    "lodash": "^4.17.15",
+    "logrocket": "^1.0.3",
+    "node-sass": "^4.13.0",
+    "prettier": "^1.18.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-app-polyfill": "^1.0.4",
+    "react-dom": "^16.11.0",
+    "react-scripts": "3.2.0",
+    "react-sticky": "^6.0.3",
+    "react-textarea-autosize": "^7.1.2",
+    "swiper": "4.5.1",
+    "uuid": "^3.3.3",
+    "yup": "^0.27.0"
+  },
+  "scripts": {
+    "start": "IMAGE_INLINE_SIZE_LIMIT=99999999 rescripts start",
+    "build": "IMAGE_INLINE_SIZE_LIMIT=99999999 rescripts build",
+    "test": "rescripts test",
+    "eject": "rescripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {}
+}
